@@ -4,18 +4,35 @@ div {
 
 body {
     font-family: 'Helvetica', 'Arial', sans-serif;
-    width: 97.5vw;
-    height: 97.5vh;
+    width: 99vw;
+    height: 95vh;
     background: linear-gradient(to bottom, #83bae6 0%, #9cc6e6 20%, #abcee7 100%);
+    padding: 0px;
+    margin: 0px;
+}
+
+.fadeIn {
+    animation: fadein 2s ease;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        margin-left: 10%;
+    }
+    100% {
+        opacity: 1;
+        margin-left: 0%;
+    }
 }
 
 a:link {
     text-decoration: none;
-    color: #ffff;
+    color: white;
 }
 
 a:visited {
-    color: #ffff;
+    color: white;
 }
 
 .brand-image {
@@ -39,17 +56,18 @@ a:visited {
     border-radius: 10px;
     float: right;
     margin-right: 5%;
-    box-shadow: 1px 5px 20px rgba(0,0,0,0.1);
+    box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: white;
 }
 
 .feedback:hover {
     transition-duration: 0.3s;
-    box-shadow: 1px 5px 25px rgba(0,0,0,0.2);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.2);
 }
 
 .feedback:active {
     transition-duration: 0.3s;
-    box-shadow: 1px 5px 30px rgba(0,0,0,0.3);
+    box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.3);
 }
 
 a .feedback {
@@ -75,6 +93,27 @@ a .feedback {
 
 .d-inline-block {
     display: inline-block;
+}
+
+.skyes {
+    position: absolute;
+    background-image: url(../img/clouds.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 93.9vh;
+    opacity: 0.5;
+    animation: clouds_anim 1000s linear infinite;
+    z-index: -1;
+}
+
+@keyframes clouds_anim {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -7000px 0;
+    }
 }
 
 /*XL-SCREEN*/
