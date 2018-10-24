@@ -9,7 +9,7 @@ body {
     background: linear-gradient(to bottom, #83bae6 0%, #9cc6e6 20%, #abcee7 100%);
 }
 
-a {
+a:link {
     text-decoration: none;
     color: #ffff;
 }
