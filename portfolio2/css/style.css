@@ -55,6 +55,27 @@ div {
     .d-lg-inline-block {
         display: inline-block;
     }
+    .form {
+        width: 50%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0px;
+    }
+    .form h2 {
+        padding-top: 10px;
+        text-align: center;
+        color: #28303b;
+    }
+    .maintext {
+        text-align: center;
+        margin-top: 10%;
+        width: 100%;
+    }
+    body {
+        height: 97vh !important;
+    }
 }
 
 /*MD-SCREEN*/
@@ -92,7 +113,7 @@ div {
         width: 50%;
     }
     .form-input {
-        width: 94% !important;
+        width: 93.4% !important;
     }
 }
 
