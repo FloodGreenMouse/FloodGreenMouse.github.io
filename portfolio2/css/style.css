@@ -74,7 +74,7 @@ div {
         width: 100%;
     }
     body {
-        height: 97vh !important;
+        height: 130vh !important;
     }
 }
 
@@ -131,6 +131,30 @@ div {
     }
     .d-sm-inline-block {
         display: inline-block;
+    }
+    .maintext {
+        text-align: center;
+        margin-top: 10%;
+        width: 100%;
+    }
+    .form {
+        width: 50%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0px;
+    }
+    .form-input {
+        width: 94.3%;
+    }
+    .form h2 {
+        padding-top: 10px;
+        text-align: center;
+        color: #28303b;
+    }
+    body {
+        height: 130vh !important;
     }
 }
 
@@ -196,6 +220,11 @@ h1 {
     color: white;
     font-weight: 500;
     font-size: 20px;
+}
+
+form {
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .form {
